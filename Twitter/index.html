@@ -6,13 +6,13 @@
 function checkLength() {
 	var sentence = document.getElementById("input").value;
 	//how do we get what the user has typed into the input
-	if(sentence.length < 140)
+	if(sentence.length > 140)
 	{
-		console.log("You still have space" );
+		console.log("You have reached the max length of characters" );
 	}
 	else 
 	{
-		console.log("You have reached the max length of characters");
+		console.log("You still have space to write.");
 	}
 
 }
