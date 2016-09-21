@@ -1,0 +1,21 @@
+<script>
+	//(amount of sugar/ recommended sugar)(100)
+function divisionandmultiplication(amtSugar, recmSugar){
+	amtSugar = allreal
+	recmSugar male= 38
+	recmSugarn female = 25
+	var sum = 100*result;
+	console.log("The result is" + result);
+}
+var prompt1 = prompt("Please give me a amount of sugar");
+var prompt2	= confirm("Are you male or female?")
+
+if (prompt2 == true){
+	divisionandmultiplication(prompt1, 25);
+} else {
+	divisionandmultiplication(prompt1, 38)
+}
+</script>
+</body>
+</html>
+
